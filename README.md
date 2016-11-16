@@ -53,3 +53,4 @@ http://coreos.me/api/group
 http://coreos.me/api/$app_name/send
 ```
 
+API 调用细节详见 [Wiki](https://github.com/itchenyi/WechatEnterpriseApi/wiki/ApiDetail)
