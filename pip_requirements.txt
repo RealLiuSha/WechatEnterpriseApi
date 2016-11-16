@@ -1,0 +1,7 @@
+Flask==0.11.1
+flask-restful==0.3.5
+gunicorn==19.6
+requests==2.11.1
+PyMySQL==0.7.9
+Flask-SQLAlchemy==2.1.0
+pycrypto==2.6.1

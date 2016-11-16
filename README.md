@@ -53,7 +53,3 @@ http://coreos.me/api/group
 http://coreos.me/api/$app_name/send
 ```
 
-
-
-
-

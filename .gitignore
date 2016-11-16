@@ -1,0 +1,12 @@
+*~
+*.swp
+*.swo
+*.bak
+*.idea
+*.pyc
+*.pid
+*.log
+*.retry
+*.env
+*__pycache__
+*var
