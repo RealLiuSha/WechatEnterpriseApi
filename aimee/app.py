@@ -1,6 +1,5 @@
 # -*- coding:utf-8 -*-
 # Author:      LiuSha
-# Email:       itchenyi@gmail.com
 from flask import (
     g,
     Flask,
@@ -90,7 +89,8 @@ def register_routes(api):
         WechatVerify,
         WechatUser,
         WechatSend,
-        WechatGroup
+        WechatGroup,
+        PrometheusApi
     )
     api.add_resource(ApiDefault, '/')
     api.add_resource(Wechat, '/api/<string:app_name>')
@@ -98,6 +98,7 @@ def register_routes(api):
     api.add_resource(WechatUser, '/api/<string:app_name>/user')
     api.add_resource(WechatSend, '/api/<string:app_name>/send')
     api.add_resource(WechatGroup, '/api/group')
+    api.add_resource(PrometheusApi, '/api/prometheus')
 
 
 def register_logging(app):
